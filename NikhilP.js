@@ -17,7 +17,9 @@ export default function examplePage() {
           <p className='description'>
             I'm Nikhil Pudtha, an undergraduate student studying Computer Science at the University of 
             Colorado Boulder. I'm deeply interested in artificial intelligence and data science.
-            Currently, I'm learning c++ and java.
+            Currently, I'm learning c++ and java. I have worked on projects that use c# and unity. In my free time, I enjoy playing sports with my friends and reading about the latest technology.
+            
+        
           </p>
 
           <a className='button' href='/'>
