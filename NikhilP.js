@@ -1,18 +1,13 @@
 export default function examplePage() {
     return (
       <div className='container'>
-        <title>About Me - Arman Mokhlesi</title>
-        <link rel='icon' href='/Downloads/Arman.ico' />
+        <title>About Me - Nikhil Pudtha</title>
+        <link rel='icon' href='/Downloads/Nikhil.ico' />
 
         <main>
           <div className='underline'>
-            <h1 className='title'>Hi, I'm Arman Mokhlesi.</h1>
+            <h1 className='title'>Hi, I'm Nikhil Pudtha.</h1>
           </div>
-          <img
-            className='pic'
-            src='https://media.licdn.com/dms/image/v2/D5603AQG1N7PrOxUp7A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696374984556?e=2147483647&v=beta&t=8hg0dUE1iWPCObPsBC3n74dF164-N_3YJ9-Yyk8xZFQ'
-            alt='Arman Mokhlesi'
-          />
 
           <p className='description'>
             I'm Nikhil Pudtha, an undergraduate student studying Computer Science at the University of 
