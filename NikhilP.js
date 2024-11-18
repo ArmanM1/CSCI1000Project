@@ -22,94 +22,93 @@ export default function examplePage() {
           </a>
         </main>
 
-        <style jsx>{`
-          .container {
-            min-height: 100vh;
-            padding: 0 0.5rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            max-width: 60rem;
-            margin: auto;
-          }
+    <style jsx>{`
+    .page-container {
+    min-height: 100vh;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #f4f4f9;
+    font-family: 'Arial', sans-serif;
+    }
 
-          main {
-            padding: 5rem 0;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-          }
+    main {
+    padding: 4rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 800px;
+    }
 
-          .title {
-            margin: 0;
-            line-height: 1.15;
-            font-size: 4rem;
-          }
+    .page-title {
+    margin: 0;
+    font-size: 3rem;
+    color: #333;
+    font-weight: 700;
+    }
 
-          .underline {
-            margin-bottom: 1.5rem;
-          }
+    .highlight {
+    margin-bottom: 2rem;
+    border-bottom: 4px solid #0070f3;
+    padding-bottom: 1rem;
+    }
 
-          .description {
-            line-height: 1.5;
-            font-size: 1.5rem;
-          }
+    .bio-description {
+    font-size: 1.25rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 75%;
+    }
 
-          .pic {
-            height: 450px;
-            width: 450px;
-          }
+    .profile-image {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    margin-top: 2rem;
+    }
 
-          .button {
-            flex-basis: 45%;
-            padding: 0.5rem;
-            text-align: left;
-            color: inherit;
-            text-decoration: none;
-            border: 1px solid #eaeaea;
-            border-radius: 10px;
-            transition: color 0.15s ease, border-color 0.15s ease;
-          }
+    .cta-button {
+    padding: 12px 24px;
+    background-color: #0070f3;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 2rem;
+    transition: background-color 0.3s;
+    }
 
-          .button:hover,
-          .button:focus,
-          .button:active {
-            color: #0070f3;
-            border-color: #0070f3;
-          }
+    .cta-button:hover {
+    background-color: #005bb5;
+    }
 
-          .button p {
-            font-size: 1rem;
-            font-weight: 600;
-          }
+    code {
+    background: #e0e0e0;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Courier New', Courier, monospace;
+    }
+`}</style>
 
-          code {
-            background: #fafafa;
-            border-radius: 5px;
-            padding: 0.75rem;
-            font-size: 1.1rem;
-            font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-              DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-          }
-        `}</style>
+<style jsx global>{`
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+  }
 
-        <style jsx global>{`
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-              Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-              sans-serif;
-          }
+    *{
+    box-sizing: border-box;
+    }
+    `}</style>
 
-          * {
-            box-sizing: border-box;
-          }
-        `}</style>
       </div>
     );
 }
